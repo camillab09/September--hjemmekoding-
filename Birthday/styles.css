@@ -42,7 +42,7 @@ margin-top: 40px;
 .gift-hint{
     margin-top:10px;
 }
-.gift{
+.gift-img{
     margin:0 auto;
     background-image: url(images/gift-cover.jpg);
     background-size:cover;
@@ -51,11 +51,38 @@ margin-top: 40px;
     border: 5px solid white;
     border-radius: 10px;
 }
-.gift:hover{
-    background-image: url(images/happy.gif);
-
-   
+#gift-img-happy:hover{
+    background-image: url(images/happy.gif); 
 }
+
+
+#gift-img-hot:hover{
+    background-image: url(images/hot.gif);
+}
+#gift-img-genius:hover{
+    background-image: url(images/genius.gif);
+}
+#gift-img-badass:hover{
+    background-image: url(images/badass.gif);
+}
+#gift-img-cheers{
+    height:200px;
+}
+#gift-img-cheers:hover{
+    background-image: url(images/cheers.gif);
+    
+
+}
+.footer{
+    font-style: italic;
+    width: 400px;
+    margin:40px auto 20px ;
+}
+
+a{
+    color: white;
+}
+
 
 /* display flex indicates where the
 items in the core should be placed.
