@@ -1,7 +1,7 @@
 body{
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-    background: #a2d2ff;
+    background: linear-gradient(to right, #a2d2ff, #3E7BB4);
     color: white;
    
 
@@ -51,38 +51,26 @@ margin-top: 40px;
     border: 5px solid white;
     border-radius: 10px;
 }
-#gift-img-happy:hover{
-    background-image: url(images/happy.gif); 
+#gift-img-proud:hover{
+    background-image: url(images/proud.gif); 
 }
 
 
 #gift-img-hot:hover{
     background-image: url(images/hot.gif);
 }
-#gift-img-genius:hover{
-    background-image: url(images/genius.gif);
+#gift-img-victory:hover{
+    background-image: url(images/victory.gif);
 }
-#gift-img-badass:hover{
-    background-image: url(images/badass.gif);
+#gift-img-jumping:hover{
+    background-image: url(images/jumping.gif);
 }
 #gift-img-cheers{
     height:200px;
 }
 #gift-img-cheers:hover{
     background-image: url(images/cheers.gif);
-    
-
 }
-.footer{
-    font-style: italic;
-    width: 400px;
-    margin:40px auto 20px ;
-}
-
-a{
-    color: white;
-}
-
 
 /* display flex indicates where the
 items in the core should be placed.
