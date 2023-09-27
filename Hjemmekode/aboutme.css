@@ -1,43 +1,45 @@
 body {
-    background: #90C3C8;
-    color: #1C191A;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    text-align: left;
-
+  background: #90c3c8;
+  color: #1c191a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  text-align: left;
 }
-.page{
-    border: 2px solid #1C191A;
-    border-radius: 20px;
-    padding: 50px;
+.page {
+  border: 2px solid #1c191a;
+  border-radius: 20px;
+  padding: 50px;
 }
-.header{
-    
+a:link {
+  color: #1c191a;
+  text-decoration: none;
 }
-.aboutme{
-
-
+a:visited {
+  color: #1c191a;
+  text-decoration: none;
 }
-.camilla{
-    display: flex;
-    float: right;
-    width: 200px;
-    border: 1px #1C191A solid;
-    border-radius: 50%;
-    
+.header {
 }
-h4{
-    text-align: center;
-    font-style: italic;
+.aboutme {
 }
-.contact{
-    display: flex;
-    margin: 20px auto;
-    padding: 15px 30px;
-    font-size: 20px;
-    background-color: #84BDC2;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 2px 2px 10px;
-
+.camilla {
+  display: flex;
+  float: right;
+  width: 200px;
+  border: 1px #1c191a solid;
+  border-radius: 50%;
+}
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+.contact {
+  display: flex;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #84bdc2;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px;
 }
