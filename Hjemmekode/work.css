@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #76b6bc, #bbdadd);
+  color: #1c191a;
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clone {
+  background-image: url(clonebutton.jpg);
+  background-size: cover;
+  width: 120px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 10px;
+}
+#clonebtn:hover {
+  background-image: url(googlescreenshot.jpg);
+}
+
+.friday {
+  background-image: url(fridaybutton.jpg);
+  background-size: cover;
+  width: 120px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 10px;
+}
+#fridaybutton:hover {
+  background-image: url(fridayclone.jpg);
+}
+.back {
+  background-image: url(back.jpg);
+  background-size: cover;
+  width: 120px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 10px;
+}
+#backbtn:hover {
+  background-image: url(home.jpg);
+}
