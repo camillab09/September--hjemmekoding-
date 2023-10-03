@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(#556f7a, #b79fad);
+  height: 100vh;
+  color: white;
+}
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  border: 0px;
+  width: 250px;
+  border-radius: 10px;
+}
+#signup {
+  width: 100px;
+  padding: 5px;
+}
+#signin {
+  width: 100px;
+  padding: 5px;
+}
+p {
+  font-size: 12px;
+}
+#country {
+  color: black;
+}

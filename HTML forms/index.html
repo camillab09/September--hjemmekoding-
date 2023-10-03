@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>Please sign in or sign up to continue</h2>
+    <form action="signup">
+      <fieldset>
+        <legend>Sign up</legend>
+        <label for="firstname">First name</label><br />
+        <input type="text" /><br /><br />
+        <label for="lastname">Last name</label><br />
+        <input type="text" /><br /><br />
+        <label for="dob">Date of birth</label><br />
+        <input
+          type="date"
+          name=""
+          id=""
+          min="1900-01-01"
+          max="2021-01-01"
+        /><br /><br />
+        <label for="email" required>Email adress</label><br />
+        <input type="email" name="" id="" /><br /><br />
+        <label for="password">Please choose a password</label><br />
+        <p>*Must be between 8 and 20 characters</p>
+        <input
+          type="password"
+          name=""
+          id=""
+          minlength="8"
+          maxlength="20"
+        /><br /><br />
+        <label for="confirm">Confirm password</label><br />
+        <input
+          type="password"
+          name=""
+          id=""
+          minlength="8"
+          maxlength="20"
+        /><br /><br />
+        <select name="choose" id="country">
+          <option value="pickone">--Pick your home--</option>
+          <option value="pickone">Atlantis</option>
+          <option value="pickone">Mordor</option>
+          <option value="pickone">Hogwarts</option>
+          <option value="pickone">Narnia</option>
+          <option value="pickone">Gotham</option></select
+        ><br /><br />
+        <input type="submit" id="signup" value="Sign up" />
+      </fieldset>
+    </form>
+    <form action="signin">
+      <fieldset>
+        <legend>Sign in</legend>
+        <label for="email">Email adress</label><br />
+        <input type="email" name="" id="" /><br /><br />
+        <label for="password">Password</label><br />
+        <input type="password" name="" id="" /><br /><br />
+        <input type="submit" id="signin" value="Sign in" />
+      </fieldset>
+    </form>
+  </body>
+</html>
